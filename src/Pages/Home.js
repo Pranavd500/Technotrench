@@ -11,7 +11,6 @@ import Footer from "../Components/Footer";
 function Home() {
   return (
     <div className="home-section">
-      <Navbar />
       <Hero />
       <Info />
       <About />

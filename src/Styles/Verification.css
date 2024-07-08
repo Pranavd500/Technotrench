@@ -1,0 +1,45 @@
+.verification-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.verification-content {
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+.cert-data {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    width: calc(100% - 16px);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

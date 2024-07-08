@@ -41,6 +41,7 @@
     line-height: 1.7rem;
 }
 
+/* Input */
 .ft-input-title {
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -127,6 +128,14 @@
     font-size: 18px;
     font-weight: bold;
     letter-spacing: .8px;
+}
+
+/* Social Icons */
+.ft-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
 }
 
 .ft-social-links {

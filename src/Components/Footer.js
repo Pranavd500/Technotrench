@@ -2,6 +2,12 @@ import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faLinkedin,
+  faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -74,6 +80,38 @@ function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="ft-social-icons">
+        <ul className="ft-social-links">
+          <li>
+            <a
+              href="https://www.instagram.com/technotrench24?igsh=MTg5d2F5d2ViYzAw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/techno-trench-72017330a/?originalSubdomain=in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://t.me/+HIfvFSo-qj4xNzI1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTelegram} className="social-icon" />
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div className="ft-copyright">

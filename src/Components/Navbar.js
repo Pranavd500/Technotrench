@@ -43,8 +43,18 @@ function Navbar() {
         </li>
         <li>
           <a href="#doctors" className="navbar-links">
+            Doctors
+          </a>
+        </li>
+        <li>
+          <a href="#contact" className="navbar-links">
             Contact
           </a>
+        </li>
+        <li>
+          <Link to="/verification" className="navbar-links">
+            Verification
+          </Link>
         </li>
       </ul>
 
@@ -84,6 +94,11 @@ function Navbar() {
             <a onClick={openNav} href="#contact">
               Contact
             </a>
+          </li>
+          <li>
+            <Link onClick={openNav} to="/verification">
+              Verification
+            </Link>
           </li>
         </ul>
       </div>
